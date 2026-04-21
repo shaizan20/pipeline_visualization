@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-class calculator {
+class Calculator {
     void add(int x, int y) {
         System.out.println("Addition of x and y: " + (x + y));
     }
@@ -11,7 +11,7 @@ class calculator {
     }
 
     public static void main(String[] args) {
-        calculator calc = new calculator();
+        Calculator calc = new Calculator();
 
         int x = 10;
         int y = 5;
